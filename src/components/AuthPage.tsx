@@ -26,7 +26,7 @@ const S: Record<string, React.CSSProperties> = {
   tagline: { fontSize: "0.88rem", color: "#7a9bc4", lineHeight: 1.6 },
   body: { padding: "28px 32px 32px" },
   tabs: { display: "flex", marginBottom: 24, borderBottom: "1px solid #1e3d6e" },
-  tab: (active: boolean): React.CSSProperties => ({
+  tab: (active: boolean) => ({
     flex: 1, background: "transparent", border: "none",
     color: active ? "#2dd4bf" : "#7a9bc4",
     fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
